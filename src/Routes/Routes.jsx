@@ -1,6 +1,5 @@
 import { Navigate, createBrowserRouter } from "react-router-dom";
 import Main from "../Layouts/Main";
-import Home from "../pages/Home/Home/Home";
 import RecepieLayout from "../Layouts/RecepieLayout";
 import RecepieDetails from "../pages/RecepieDetails/RecepieDetails/RecepieDetails";
 import LoginLayout from "../Layouts/LoginLayout";

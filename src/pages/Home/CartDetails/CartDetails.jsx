@@ -8,8 +8,8 @@ const CartDetails = ({ chefData }) => {
 
     return (
         <div className=''>
-            <div className="card lg:w-96 bg-base-100 shadow-lg ">
-                <figure><LazyLoadImage className='h-60 w-4/5 rounded-lg mt-4 ' src={picture_url} /></figure>
+            <div className="mx-auto lg:w-96 bg-base-100 shadow-lg ">
+                <figure><LazyLoadImage className='h-60 w-4/5 rounded-lg mt-4 mx-auto' src={picture_url} /></figure>
                 <div className="card-body">
                     <h2 className="card-title font-semibold">{chef_name}</h2>
                     <p className='text-xl'>Years of experience {years_of_experience}</p>

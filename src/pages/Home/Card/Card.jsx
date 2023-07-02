@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import CartDetails from '../CartDetails/CartDetails';
 
 const Card = () => {
@@ -14,7 +13,7 @@ const Card = () => {
     return (
         <div>
             <h2 className='text-4xl font-bold text-center mt-8 mb-8'>SpiceHouse Chef</h2>
-            <div className='grid lg:grid-cols-3 mt-4 gap-4'>
+            <div className='grid lg:grid-cols-3 mt-4 gap-4 mx-auto'>
             
             {
                 chefDatas.map(chefData => <CartDetails

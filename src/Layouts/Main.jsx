@@ -6,6 +6,9 @@ import Card from '../pages/Home/Card/Card';
 import NavigationBar from '../pages/shared/NavigatiomBat/NavigationBar';
 import ChefExhibition from '../pages/shared/Extra/ChefExhibition';
 import Bonus from '../pages/shared/Extra/Bonus/Bonus';
+import LatestRecipe from '../pages/shared/Extra/LatestRecipe/LatestRecipe';
+import BestChicken from '../pages/shared/Extra/Bonus/BestChicken/BestChicken';
+import NextWeek from '../pages/shared/Extra/Bonus/NextWeek/NextWeek';
 
 const Main = () => {
     return (
@@ -14,6 +17,9 @@ const Main = () => {
             <NavigationBar></NavigationBar>
             <Banner></Banner>
             <Card></Card>
+            <LatestRecipe></LatestRecipe>
+            <BestChicken></BestChicken>
+            <NextWeek></NextWeek>
             <ChefExhibition></ChefExhibition>
             <Bonus></Bonus>
             <Footer></Footer>
