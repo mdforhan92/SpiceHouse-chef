@@ -6,7 +6,7 @@ import { FaRegClock, FaTag } from 'react-icons/fa';
 const BestChicken = () => {
     return (
         <div>
-            <h1 className='text-4xl font-bold mt-16'>The Latest Recipe</h1>
+            <h1 className='text-4xl font-bold mt-16 text-center'>Best chicken recipes</h1>
             <div className='divider opacity-70 mb-8'></div>
             <div className='grid sm:grid-cols-1 lg:grid-cols-3 gap-8'>
                 {/* div 1  */}

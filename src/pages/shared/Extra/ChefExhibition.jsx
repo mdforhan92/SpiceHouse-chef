@@ -6,7 +6,9 @@ import ch4 from '../../../assets/ch4.jpg'
 const ChefExhibition = () => {
     return (
         <div>
-            <h2 className='text-center text-4xl font-semibold mt-8 mb-4'>Chef Exhibition</h2>
+            <h1 className='text-4xl font-bold mt-16 text-center'>Chef Exhibition</h1>
+            <div className='divider opacity-70 mb-8'></div>
+            
             <div className="carousel lg:w-2/4 items-center mb-4 mx-auto">
                 <div id="slide1" className="carousel-item relative w-full">
                     <img src={ch1} className="w-full rounded-lg" />

@@ -9,6 +9,7 @@ import Bonus from '../pages/shared/Extra/Bonus/Bonus';
 import LatestRecipe from '../pages/shared/Extra/LatestRecipe/LatestRecipe';
 import BestChicken from '../pages/shared/Extra/Bonus/BestChicken/BestChicken';
 import NextWeek from '../pages/shared/Extra/Bonus/NextWeek/NextWeek';
+import Slider from '../pages/shared/Extra/Bonus/Slider/Slider';
 
 const Main = () => {
     return (
@@ -20,6 +21,7 @@ const Main = () => {
             <LatestRecipe></LatestRecipe>
             <BestChicken></BestChicken>
             <NextWeek></NextWeek>
+            <Slider></Slider>
             <ChefExhibition></ChefExhibition>
             <Bonus></Bonus>
             <Footer></Footer>

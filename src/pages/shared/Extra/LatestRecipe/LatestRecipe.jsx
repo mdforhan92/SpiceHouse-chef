@@ -11,7 +11,7 @@ import { FaTag, FaRegClock } from "react-icons/fa";
 const LatestRecipe = () => {
     return (
         <div>
-            <h1 className='text-4xl font-bold mt-16'>The Latest Recipe</h1>
+            <h1 className='text-4xl font-bold mt-16 text-center'>The Latest Recipe</h1>
             <div className='divider opacity-70 mb-8'></div>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
                 {/* card 1  */}
